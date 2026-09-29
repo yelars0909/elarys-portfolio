@@ -184,3 +184,12 @@
   font-size: 14px;
   font-weight: 500;
 }
+
+/* Desktop locks page scroll (columns scroll internally); mobile scrolls naturally */
+@layer base {
+  @media (min-width: 769px) {
+    body {
+      overflow: hidden;
+    }
+  }
+}

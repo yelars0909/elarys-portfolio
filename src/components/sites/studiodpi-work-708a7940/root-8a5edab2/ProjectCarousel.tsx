@@ -13,6 +13,7 @@ const FRAME_HEIGHT = 553;
 interface ProjectCarouselProps {
   eventId: number;
   medias: Media[];
+  mobile?: boolean;
 }
 
 /**
@@ -21,7 +22,7 @@ interface ProjectCarouselProps {
  * follows the mouse (native cursor hidden), and invisible left/right click
  * zones for prev/next.
  */
-export function ProjectCarousel({ eventId, medias }: ProjectCarouselProps) {
+export function ProjectCarousel({ eventId, medias, mobile }: ProjectCarouselProps) {
   const swiperRef = useRef<SwiperInstance | null>(null);
   const wrapRef = useRef<HTMLDivElement>(null);
   const wheelAccRef = useRef(0);
@@ -95,7 +96,16 @@ export function ProjectCarousel({ eventId, medias }: ProjectCarouselProps) {
   const mediaStyle = (m: Media): CSSProperties => {
     // Every media gets the fixed row height; width follows its own aspect
     // ratio, so narrow slides let the next one peek in (original behavior).
+    // Mobile: the 862x553 frame scales down to the viewport width (24px
+    // horizontal margin) via CSS calc, no JS resize tracking needed.
     const ratio = m.height / m.width;
+    if (mobile) {
+      const h = "calc((100vw - 24px) * 0.64153)";
+      if (Number.isFinite(ratio) && ratio > 0) {
+        return { height: h, width: `calc((100vw - 24px) * 0.64153 / ${ratio})` };
+      }
+      return { width: "calc(100vw - 24px)", height: h };
+    }
     if (Number.isFinite(ratio) && ratio > 0) {
       return { height: FRAME_HEIGHT, width: FRAME_HEIGHT / ratio };
     }
@@ -122,7 +132,7 @@ export function ProjectCarousel({ eventId, medias }: ProjectCarouselProps) {
   return (
     <div
       ref={wrapRef}
-      className="relative cursor-none"
+      className={`relative cursor-none${mobile ? " px-3" : ""}`}
       id={`DPI_SWIPER_EVENT_${eventId}`}
       onMouseMove={onMouseMove}
       onMouseLeave={() => setCursor(null)}
@@ -130,9 +140,10 @@ export function ProjectCarousel({ eventId, medias }: ProjectCarouselProps) {
       <Swiper
         direction="horizontal"
         slidesPerView="auto"
-        spaceBetween={18}
+        spaceBetween={mobile ? 12 : 18}
         speed={500}
         loop={true}
+        longSwipes={!mobile}
         onSwiper={(s) => {
           swiperRef.current = s;
           s.on("slideChangeTransitionEnd", () => {
