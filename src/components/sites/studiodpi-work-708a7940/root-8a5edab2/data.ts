@@ -38,121 +38,121 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p01-cover.png",
+      "hashName": "p01-cover.webp",
       "width": 2278,
       "height": 2278
     },
     "medias": [
       {
-        "hashName": "p01-1.jpg",
+        "hashName": "p01-1.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-2.jpg",
+        "hashName": "p01-2.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-3.jpg",
+        "hashName": "p01-3.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-4.jpg",
+        "hashName": "p01-4.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-5.jpg",
+        "hashName": "p01-5.webp",
         "width": 2560,
         "height": 1925,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-6.jpg",
+        "hashName": "p01-6.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-7.jpg",
+        "hashName": "p01-7.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-8.jpg",
+        "hashName": "p01-8.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-9.jpg",
+        "hashName": "p01-9.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-10.jpg",
+        "hashName": "p01-10.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-11.jpg",
+        "hashName": "p01-11.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-12.jpg",
+        "hashName": "p01-12.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-13.jpg",
+        "hashName": "p01-13.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-14.jpg",
+        "hashName": "p01-14.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-15.jpg",
+        "hashName": "p01-15.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-16.jpg",
+        "hashName": "p01-16.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-17.jpg",
+        "hashName": "p01-17.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-18.jpg",
+        "hashName": "p01-18.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p01-19.jpg",
+        "hashName": "p01-19.webp",
         "width": 1490,
         "height": 2392,
         "type": "IMAGE"
@@ -179,55 +179,55 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p02-cover.png",
+      "hashName": "p02-cover.webp",
       "width": 1230,
       "height": 1230
     },
     "medias": [
       {
-        "hashName": "p02-1.jpg",
+        "hashName": "p02-1.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-2.jpg",
+        "hashName": "p02-2.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-3.jpg",
+        "hashName": "p02-3.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-4.jpg",
+        "hashName": "p02-4.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-5.jpg",
+        "hashName": "p02-5.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-6.jpg",
+        "hashName": "p02-6.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-7.jpg",
+        "hashName": "p02-7.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p02-8.jpg",
+        "hashName": "p02-8.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
@@ -254,31 +254,31 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p03-cover.png",
+      "hashName": "p03-cover.webp",
       "width": 1672,
       "height": 1672
     },
     "medias": [
       {
-        "hashName": "p03-1.jpg",
+        "hashName": "p03-1.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p03-2.jpg",
+        "hashName": "p03-2.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p03-3.jpg",
+        "hashName": "p03-3.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p03-4.jpg",
+        "hashName": "p03-4.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
@@ -305,43 +305,43 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p04-cover.png",
+      "hashName": "p04-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p04-1.png",
+        "hashName": "p04-1.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p04-2.png",
+        "hashName": "p04-2.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p04-3.png",
+        "hashName": "p04-3.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p04-4.png",
+        "hashName": "p04-4.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p04-5.png",
+        "hashName": "p04-5.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
       },
       {
-        "hashName": "p04-6.png",
+        "hashName": "p04-6.webp",
         "width": 2560,
         "height": 1639,
         "type": "IMAGE"
@@ -372,55 +372,55 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p05-cover.png",
+      "hashName": "p05-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p05-1.jpg",
+        "hashName": "p05-1.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-2.jpg",
+        "hashName": "p05-2.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-3.jpg",
+        "hashName": "p05-3.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-4.jpg",
+        "hashName": "p05-4.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-5.jpg",
+        "hashName": "p05-5.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-6.jpg",
+        "hashName": "p05-6.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-7.jpg",
+        "hashName": "p05-7.webp",
         "width": 1808,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p05-8.jpg",
+        "hashName": "p05-8.webp",
         "width": 1808,
         "height": 2560,
         "type": "IMAGE"
@@ -451,19 +451,19 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p06-cover.png",
+      "hashName": "p06-cover.webp",
       "width": 2560,
       "height": 2413
     },
     "medias": [
       {
-        "hashName": "p06-1.jpg",
+        "hashName": "p06-1.webp",
         "width": 2560,
         "height": 1830,
         "type": "IMAGE"
       },
       {
-        "hashName": "p06-2.jpg",
+        "hashName": "p06-2.webp",
         "width": 2560,
         "height": 1830,
         "type": "IMAGE"
@@ -490,67 +490,67 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p07-cover.png",
+      "hashName": "p07-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p07-1.jpg",
+        "hashName": "p07-1.webp",
         "width": 2048,
         "height": 1950,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-2.jpg",
+        "hashName": "p07-2.webp",
         "width": 1080,
         "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-3.jpg",
+        "hashName": "p07-3.webp",
         "width": 1080,
         "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-4.jpg",
+        "hashName": "p07-4.webp",
         "width": 1000,
         "height": 1000,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-5.jpg",
+        "hashName": "p07-5.webp",
         "width": 1000,
         "height": 1000,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-6.jpg",
+        "hashName": "p07-6.webp",
         "width": 1000,
         "height": 1000,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-7.jpg",
+        "hashName": "p07-7.webp",
         "width": 800,
         "height": 597,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-8.jpg",
+        "hashName": "p07-8.webp",
         "width": 800,
         "height": 597,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-9.jpg",
+        "hashName": "p07-9.webp",
         "width": 1080,
         "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p07-10.jpg",
+        "hashName": "p07-10.webp",
         "width": 1080,
         "height": 1080,
         "type": "IMAGE"
@@ -585,67 +585,67 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p08-cover.png",
+      "hashName": "p08-cover.webp",
       "width": 456,
       "height": 457
     },
     "medias": [
       {
-        "hashName": "p08-1.jpg",
+        "hashName": "p08-1.webp",
         "width": 951,
         "height": 634,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-2.jpg",
+        "hashName": "p08-2.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-3.jpg",
+        "hashName": "p08-3.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-4.jpg",
+        "hashName": "p08-4.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-5.jpg",
+        "hashName": "p08-5.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-6.jpg",
+        "hashName": "p08-6.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-7.jpg",
+        "hashName": "p08-7.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-8.jpg",
+        "hashName": "p08-8.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-9.jpg",
+        "hashName": "p08-9.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-10.jpg",
+        "hashName": "p08-10.webp",
         "width": 1080,
         "height": 720,
         "type": "IMAGE"
@@ -680,67 +680,67 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p09-cover.png",
+      "hashName": "p09-cover.webp",
       "width": 979,
       "height": 979
     },
     "medias": [
       {
-        "hashName": "p09-1.png",
+        "hashName": "p09-1.webp",
         "width": 1280,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-2.png",
+        "hashName": "p09-2.webp",
         "width": 1280,
         "height": 1919,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-3.jpg",
+        "hashName": "p09-3.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-4.jpg",
+        "hashName": "p09-4.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-5.jpg",
+        "hashName": "p09-5.webp",
         "width": 1080,
         "height": 672,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-6.jpg",
+        "hashName": "p09-6.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-7.jpg",
+        "hashName": "p09-7.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-8.jpg",
+        "hashName": "p09-8.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-9.jpg",
+        "hashName": "p09-9.webp",
         "width": 1280,
         "height": 853,
         "type": "IMAGE"
       },
       {
-        "hashName": "p09-10.jpg",
+        "hashName": "p09-10.webp",
         "width": 1280,
         "height": 789,
         "type": "IMAGE"
@@ -771,31 +771,31 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p10-cover.png",
+      "hashName": "p10-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p10-1.jpg",
+        "hashName": "p10-1.webp",
         "width": 1776,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p10-2.jpg",
+        "hashName": "p10-2.webp",
         "width": 1776,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p10-3.jpg",
+        "hashName": "p10-3.webp",
         "width": 1776,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p10-4.jpg",
+        "hashName": "p10-4.webp",
         "width": 1776,
         "height": 2560,
         "type": "IMAGE"
@@ -822,49 +822,49 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p12-cover.png",
+      "hashName": "p12-cover.webp",
       "width": 2363,
       "height": 2363
     },
     "medias": [
       {
-        "hashName": "p12-1.jpg",
+        "hashName": "p12-1.webp",
         "width": 1625,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-2.jpg",
+        "hashName": "p12-2.webp",
         "width": 2331,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-3.jpg",
+        "hashName": "p12-3.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-4.jpg",
+        "hashName": "p12-4.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-5.jpg",
+        "hashName": "p12-5.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-6.jpg",
+        "hashName": "p12-6.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p12-7.jpg",
+        "hashName": "p12-7.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
@@ -895,49 +895,49 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p13-cover.png",
+      "hashName": "p13-cover.webp",
       "width": 1184,
       "height": 1184
     },
     "medias": [
       {
-        "hashName": "p13-1.png",
+        "hashName": "p13-1.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-2.png",
+        "hashName": "p13-2.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-3.png",
+        "hashName": "p13-3.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-4.png",
+        "hashName": "p13-4.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-5.png",
+        "hashName": "p13-5.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-6.png",
+        "hashName": "p13-6.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p13-7.png",
+        "hashName": "p13-7.webp",
         "width": 1920,
         "height": 2560,
         "type": "IMAGE"
@@ -964,19 +964,19 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p14-cover.png",
+      "hashName": "p14-cover.webp",
       "width": 1718,
       "height": 1718
     },
     "medias": [
       {
-        "hashName": "p14-1.jpg",
+        "hashName": "p14-1.webp",
         "width": 2560,
         "height": 1634,
         "type": "IMAGE"
       },
       {
-        "hashName": "p14-2.jpg",
+        "hashName": "p14-2.webp",
         "width": 2560,
         "height": 1634,
         "type": "IMAGE"
@@ -1007,67 +1007,67 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p15-cover.png",
+      "hashName": "p15-cover.webp",
       "width": 2560,
       "height": 2368
     },
     "medias": [
       {
-        "hashName": "p15-1.jpg",
+        "hashName": "p15-1.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-2.jpg",
+        "hashName": "p15-2.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-3.jpg",
+        "hashName": "p15-3.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-4.jpg",
+        "hashName": "p15-4.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-5.jpg",
+        "hashName": "p15-5.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-6.jpg",
+        "hashName": "p15-6.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-7.jpg",
+        "hashName": "p15-7.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-8.jpg",
+        "hashName": "p15-8.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-9.jpg",
+        "hashName": "p15-9.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p15-10.jpg",
+        "hashName": "p15-10.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
@@ -1094,31 +1094,31 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p16-cover.png",
+      "hashName": "p16-cover.webp",
       "width": 402,
       "height": 402
     },
     "medias": [
       {
-        "hashName": "p16-叶莱小动物勾线-9.19_画板 1 副本.jpg",
+        "hashName": "p16-叶莱小动物勾线-9.19_画板 1 副本.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p16-叶莱小动物勾线-9.19_画板 1 副本 2.jpg",
+        "hashName": "p16-叶莱小动物勾线-9.19_画板 1 副本 2.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p16-叶莱小动物勾线-9.19_画板 1-01.jpg",
+        "hashName": "p16-叶莱小动物勾线-9.19_画板 1-01.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
       },
       {
-        "hashName": "p16-叶莱小动物勾线-9.19_画板 1-03.jpg",
+        "hashName": "p16-叶莱小动物勾线-9.19_画板 1-03.webp",
         "width": 2560,
         "height": 1810,
         "type": "IMAGE"
@@ -1153,163 +1153,163 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p17-cover.png",
+      "hashName": "p17-cover.webp",
       "width": 828,
       "height": 828
     },
     "medias": [
       {
-        "hashName": "p17-1.png",
+        "hashName": "p17-1.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-2.png",
+        "hashName": "p17-2.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-3.png",
+        "hashName": "p17-3.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-4.png",
+        "hashName": "p17-4.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-5.png",
+        "hashName": "p17-5.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-6.png",
+        "hashName": "p17-6.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-7.png",
+        "hashName": "p17-7.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-8.jpg",
+        "hashName": "p17-8.webp",
         "width": 1260,
         "height": 2400,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-9.jpg",
+        "hashName": "p17-9.webp",
         "width": 1236,
         "height": 2354,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-10.png",
+        "hashName": "p17-10.webp",
         "width": 2560,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-11.png",
+        "hashName": "p17-11.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-12.png",
+        "hashName": "p17-12.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-13.png",
+        "hashName": "p17-13.webp",
         "width": 2560,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-14.png",
+        "hashName": "p17-14.webp",
         "width": 2560,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-15.jpg",
+        "hashName": "p17-15.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-16.jpg",
+        "hashName": "p17-16.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-17.jpg",
+        "hashName": "p17-17.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-18.jpg",
+        "hashName": "p17-18.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-19.jpg",
+        "hashName": "p17-19.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-20.png",
+        "hashName": "p17-20.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-21.png",
+        "hashName": "p17-21.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-22.png",
+        "hashName": "p17-22.webp",
         "width": 1200,
         "height": 1200,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-23.jpg",
+        "hashName": "p17-23.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-24.jpg",
+        "hashName": "p17-24.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-25.jpg",
+        "hashName": "p17-25.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
       },
       {
-        "hashName": "p17-26.jpg",
+        "hashName": "p17-26.webp",
         "width": 1150,
         "height": 1150,
         "type": "IMAGE"
@@ -1344,73 +1344,73 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p18-cover.png",
+      "hashName": "p18-cover.webp",
       "width": 591,
       "height": 827
     },
     "medias": [
       {
-        "hashName": "p18-1.jpg",
+        "hashName": "p18-1.webp",
         "width": 2560,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-2.jpg",
+        "hashName": "p18-2.webp",
         "width": 2560,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-3.jpg",
+        "hashName": "p18-3.webp",
         "width": 2560,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-4.jpg",
+        "hashName": "p18-4.webp",
         "width": 2560,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-5.jpg",
+        "hashName": "p18-5.webp",
         "width": 1724,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-6.jpg",
+        "hashName": "p18-6.webp",
         "width": 1724,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-7.jpg",
+        "hashName": "p18-7.webp",
         "width": 1724,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-8.jpg",
+        "hashName": "p18-8.webp",
         "width": 1724,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-9.jpg",
+        "hashName": "p18-9.webp",
         "width": 1701,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-10.jpg",
+        "hashName": "p18-10.webp",
         "width": 1701,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p18-11.jpg",
+        "hashName": "p18-11.webp",
         "width": 1701,
         "height": 2560,
         "type": "IMAGE"
@@ -1445,85 +1445,85 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p19-cover.png",
+      "hashName": "p19-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p19-1.jpg",
+        "hashName": "p19-1.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-2.jpg",
+        "hashName": "p19-2.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-3.jpg",
+        "hashName": "p19-3.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-4.jpg",
+        "hashName": "p19-4.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-5.jpg",
+        "hashName": "p19-5.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-6.jpg",
+        "hashName": "p19-6.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-7.jpg",
+        "hashName": "p19-7.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-8.jpg",
+        "hashName": "p19-8.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-9.jpg",
+        "hashName": "p19-9.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-10.jpg",
+        "hashName": "p19-10.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-11.jpg",
+        "hashName": "p19-11.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-12.jpg",
+        "hashName": "p19-12.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p19-13.jpg",
+        "hashName": "p19-13.webp",
         "width": 1152,
         "height": 2560,
         "type": "IMAGE"
@@ -1566,79 +1566,79 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p20-cover.png",
+      "hashName": "p20-cover.webp",
       "width": 1216,
       "height": 1216
     },
     "medias": [
       {
-        "hashName": "p20-1.jpg",
+        "hashName": "p20-1.webp",
         "width": 1810,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-2.jpg",
+        "hashName": "p20-2.webp",
         "width": 1181,
         "height": 709,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-3.jpg",
+        "hashName": "p20-3.webp",
         "width": 1181,
         "height": 1181,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-4.png",
+        "hashName": "p20-4.webp",
         "width": 2560,
         "height": 1454,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-5.png",
+        "hashName": "p20-5.webp",
         "width": 2560,
         "height": 1454,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-6.png",
+        "hashName": "p20-6.webp",
         "width": 2560,
         "height": 1454,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-7.png",
+        "hashName": "p20-7.webp",
         "width": 2560,
         "height": 1454,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-8.png",
+        "hashName": "p20-8.webp",
         "width": 2560,
         "height": 1454,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-9.png",
+        "hashName": "p20-9.webp",
         "width": 2560,
         "height": 1441,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-10.png",
+        "hashName": "p20-10.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-11.png",
+        "hashName": "p20-11.webp",
         "width": 2560,
         "height": 1713,
         "type": "IMAGE"
       },
       {
-        "hashName": "p20-12.png",
+        "hashName": "p20-12.webp",
         "width": 2560,
         "height": 1713,
         "type": "IMAGE"
@@ -1681,7 +1681,7 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p21-cover.png",
+      "hashName": "p21-cover.webp",
       "width": 2404,
       "height": 2480
     },
@@ -1693,79 +1693,79 @@ export const WORKS: Work[] = [
         "type": "VIDEO"
       },
       {
-        "hashName": "p21-2.jpg",
+        "hashName": "p21-2.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-3.jpeg",
+        "hashName": "p21-3.webp",
         "width": 1920,
         "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-4.jpeg",
+        "hashName": "p21-4.webp",
         "width": 1920,
         "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-5.jpg",
+        "hashName": "p21-5.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-6.jpg",
+        "hashName": "p21-6.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-7.jpg",
+        "hashName": "p21-7.webp",
         "width": 2560,
         "height": 1925,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-8.jpg",
+        "hashName": "p21-8.webp",
         "width": 1702,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-9.jpg",
+        "hashName": "p21-9.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-10.jpg",
+        "hashName": "p21-10.webp",
         "width": 1230,
         "height": 1636,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-11.jpg",
+        "hashName": "p21-11.webp",
         "width": 1161,
         "height": 1543,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-12.jpg",
+        "hashName": "p21-12.webp",
         "width": 2560,
         "height": 1925,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-13.jpg",
+        "hashName": "p21-13.webp",
         "width": 2560,
         "height": 1609,
         "type": "IMAGE"
       },
       {
-        "hashName": "p21-14.jpg",
+        "hashName": "p21-14.webp",
         "width": 1889,
         "height": 2560,
         "type": "IMAGE"
@@ -1800,151 +1800,151 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p22-cover.png",
+      "hashName": "p22-cover.webp",
       "width": 1297,
       "height": 1297
     },
     "medias": [
       {
-        "hashName": "p22-1.jpg",
+        "hashName": "p22-1.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-2.jpg",
+        "hashName": "p22-2.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-3.jpg",
+        "hashName": "p22-3.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-4.jpg",
+        "hashName": "p22-4.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-5.jpg",
+        "hashName": "p22-5.webp",
         "width": 2560,
         "height": 1806,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-6.jpg",
+        "hashName": "p22-6.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-7.jpg",
+        "hashName": "p22-7.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-8.jpg",
+        "hashName": "p22-8.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-9.jpg",
+        "hashName": "p22-9.webp",
         "width": 2560,
         "height": 1878,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-10.jpg",
+        "hashName": "p22-10.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-11.jpg",
+        "hashName": "p22-11.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-12.jpg",
+        "hashName": "p22-12.webp",
         "width": 2560,
         "height": 1919,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-13.jpg",
+        "hashName": "p22-13.webp",
         "width": 2560,
         "height": 1919,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-14.jpg",
+        "hashName": "p22-14.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-15.jpg",
+        "hashName": "p22-15.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-16.jpg",
+        "hashName": "p22-16.webp",
         "width": 2560,
         "height": 1919,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-17.jpg",
+        "hashName": "p22-17.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-18.jpg",
+        "hashName": "p22-18.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-19.jpg",
+        "hashName": "p22-19.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-20.jpg",
+        "hashName": "p22-20.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-21.jpg",
+        "hashName": "p22-21.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-22.jpg",
+        "hashName": "p22-22.webp",
         "width": 2560,
         "height": 1920,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-23.jpg",
+        "hashName": "p22-23.webp",
         "width": 2560,
         "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p22-24.jpg",
+        "hashName": "p22-24.webp",
         "width": 2560,
         "height": 1919,
         "type": "IMAGE"
@@ -1983,79 +1983,79 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p23-cover.png",
+      "hashName": "p23-cover.webp",
       "width": 1242,
       "height": 1242
     },
     "medias": [
       {
-        "hashName": "p23-1.png",
+        "hashName": "p23-1.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-2.png",
+        "hashName": "p23-2.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-3.png",
+        "hashName": "p23-3.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-4.png",
+        "hashName": "p23-4.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-5.png",
+        "hashName": "p23-5.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-6.png",
+        "hashName": "p23-6.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-7.png",
+        "hashName": "p23-7.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-8.png",
+        "hashName": "p23-8.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-9.png",
+        "hashName": "p23-9.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-10.png",
+        "hashName": "p23-10.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-11.png",
+        "hashName": "p23-11.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
       },
       {
-        "hashName": "p23-12.png",
+        "hashName": "p23-12.webp",
         "width": 2526,
         "height": 1892,
         "type": "IMAGE"
@@ -2090,55 +2090,55 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p24-cover.png",
+      "hashName": "p24-cover.webp",
       "width": 926,
       "height": 926
     },
     "medias": [
       {
-        "hashName": "p24-1.jpg",
+        "hashName": "p24-1.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-2.jpg",
+        "hashName": "p24-2.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-3.jpg",
+        "hashName": "p24-3.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-4.jpg",
+        "hashName": "p24-4.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-5.jpg",
+        "hashName": "p24-5.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-6.jpg",
+        "hashName": "p24-6.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-7.jpg",
+        "hashName": "p24-7.webp",
         "width": 2126,
         "height": 1240,
         "type": "IMAGE"
       },
       {
-        "hashName": "p24-8.jpg",
+        "hashName": "p24-8.webp",
         "width": 1239,
         "height": 2123,
         "type": "IMAGE"
@@ -2173,67 +2173,67 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p25-cover.png",
+      "hashName": "p25-cover.webp",
       "width": 360,
       "height": 480
     },
     "medias": [
       {
-        "hashName": "p25-1.png",
+        "hashName": "p25-1.webp",
         "width": 2560,
         "height": 1808,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-2.jpg",
+        "hashName": "p25-2.webp",
         "width": 2560,
         "height": 1706,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-3.jpg",
+        "hashName": "p25-3.webp",
         "width": 2560,
         "height": 1698,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-4.jpg",
+        "hashName": "p25-4.webp",
         "width": 1707,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-5.jpg",
+        "hashName": "p25-5.webp",
         "width": 2560,
         "height": 1707,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-6.png",
+        "hashName": "p25-6.webp",
         "width": 2560,
         "height": 1502,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-7.png",
+        "hashName": "p25-7.webp",
         "width": 2560,
         "height": 1501,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-8.png",
+        "hashName": "p25-8.webp",
         "width": 2560,
         "height": 1502,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-9.png",
+        "hashName": "p25-9.webp",
         "width": 2560,
         "height": 1504,
         "type": "IMAGE"
       },
       {
-        "hashName": "p25-10.png",
+        "hashName": "p25-10.webp",
         "width": 2560,
         "height": 1501,
         "type": "IMAGE"
@@ -2264,13 +2264,13 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p26-cover.png",
+      "hashName": "p26-cover.webp",
       "width": 371,
       "height": 371
     },
     "medias": [
       {
-        "hashName": "p26-1.jpg",
+        "hashName": "p26-1.webp",
         "width": 2440,
         "height": 1768,
         "type": "IMAGE"
@@ -2305,25 +2305,25 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p27-cover.png",
+      "hashName": "p27-cover.webp",
       "width": 1276,
       "height": 1390
     },
     "medias": [
       {
-        "hashName": "p27-1.jpg",
+        "hashName": "p27-1.webp",
         "width": 1566,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p27-2.jpg",
+        "hashName": "p27-2.webp",
         "width": 1448,
         "height": 2560,
         "type": "IMAGE"
       },
       {
-        "hashName": "p27-3.jpg",
+        "hashName": "p27-3.webp",
         "width": 1676,
         "height": 2560,
         "type": "IMAGE"
@@ -2354,25 +2354,25 @@ export const WORKS: Work[] = [
       }
     ],
     "cover": {
-      "hashName": "p28-cover.png",
+      "hashName": "p28-cover.webp",
       "width": 2560,
       "height": 2560
     },
     "medias": [
       {
-        "hashName": "p28-1.jpg",
+        "hashName": "p28-1.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
       },
       {
-        "hashName": "p28-2.jpg",
+        "hashName": "p28-2.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
       },
       {
-        "hashName": "p28-3.jpg",
+        "hashName": "p28-3.webp",
         "width": 2560,
         "height": 1640,
         "type": "IMAGE"
