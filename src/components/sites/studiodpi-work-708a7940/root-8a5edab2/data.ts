@@ -803,43 +803,6 @@ export const WORKS: Work[] = [
     ]
   },
   {
-    "id": 11,
-    "nameEn": "<span class=\"dpi-cn-inline\">二维视觉感知讲座海报</span>",
-    "clientEn": "<p>中央美术学院设计学院</p>",
-    "year": "2025",
-    "descriptionEn": "<div class=\"dpi-cn\"><p>无</p></div>",
-    "extendsEn": [
-      {
-        "param": "TD.D.",
-        "value": "<p>Elarys·Tolkhyn</p>"
-      },
-      {
-        "param": "PT.",
-        "value": "<p>Wang Jijin</p>"
-      }
-    ],
-    "link": null,
-    "categories": [
-      {
-        "id": 1,
-        "nameEn": "VISUAL IDENTITY"
-      }
-    ],
-    "cover": {
-      "hashName": "p11-cover.png",
-      "width": 2560,
-      "height": 2560
-    },
-    "medias": [
-      {
-        "hashName": "p11-1.jpg",
-        "width": 1920,
-        "height": 2560,
-        "type": "IMAGE"
-      }
-    ]
-  },
-  {
     "id": 12,
     "nameEn": "<span class=\"dpi-cn-inline\">新钛工作坊活动视觉</span>",
     "clientEn": "<p>新钛XinTai</p>",
