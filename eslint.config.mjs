@@ -12,6 +12,9 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Reverse-engineering research artifacts (downloaded original chunks):
+    "docs/**",
+    "scripts/**",
   ]),
 ]);
 

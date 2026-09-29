@@ -1,0 +1,691 @@
+(self.webpackChunkdpi_client = self.webpackChunkdpi_client || []).push([
+  [673],
+  {
+    37222: function (Me, J, a) {
+      "use strict";
+      a.d(J, {
+        Carousel: function () {
+          return Ne;
+        },
+        Loading: function () {
+          return K.Z;
+        },
+        MagicImage: function () {
+          return Y;
+        },
+        Marquee: function () {
+          return Re;
+        },
+        SafeArea: function () {
+          return ve;
+        },
+        VideoPlayer: function () {
+          return D;
+        },
+      });
+      var K = a(17163),
+        Ee = a(59408),
+        t = a(85893),
+        Ae = function () {
+          return _jsx(_Result, {
+            title: "404",
+            subTitle: "Sorry, the page you visited does not exist.",
+          });
+        },
+        Te = null,
+        Ce = a(81151),
+        We = { empty: "empty___X76sH" },
+        Ve = function () {
+          return _jsx("div", {
+            className: styles.empty,
+            children: _jsx(_Empty, {}),
+          });
+        },
+        Fe = null,
+        He = a(35611),
+        Q = a(97857),
+        E = a.n(Q),
+        k = a(13769),
+        _ = a.n(k),
+        q = a(94184),
+        R = a.n(q),
+        ze = { modal: "modal___dVPzT" },
+        ee = null,
+        Oe = function (e) {
+          var d = e.className,
+            v = e.bodyStyle,
+            f = e.closable,
+            r = f === void 0 ? !0 : f,
+            u = e.children,
+            c = _objectWithoutProperties(e, ee);
+          return _jsx(
+            _Modal,
+            _objectSpread(
+              _objectSpread(
+                {
+                  width: "100vw",
+                  className: cls(styles.modal, d),
+                  bodyStyle: _objectSpread(
+                    {
+                      display: "flex",
+                      alignItems: "center",
+                      position: "relative",
+                      justifyContent: "center",
+                      width: "100vw",
+                      height: "100vh",
+                      border: 0,
+                      padding: 0,
+                      overflow: "hidden",
+                    },
+                    v,
+                  ),
+                  destroyOnClose: !0,
+                  footer: null,
+                  keyboard: !1,
+                  maskClosable: !0,
+                  closable: r,
+                },
+                c,
+              ),
+              {},
+              { children: u },
+            ),
+          );
+        },
+        $e = null,
+        ae = a(57557),
+        te = a.n(ae),
+        le = a(5574),
+        A = a.n(le),
+        s = a(67294),
+        L = a(42532),
+        T = a(47271),
+        P = a(75981),
+        W = {
+          root: "root___EtWTZ",
+          image: "image____dZ8c",
+          placeholder: "placeholder___GwWXx",
+          loader: "loader___oJ4gp",
+        },
+        ne = [
+          "className",
+          "style",
+          "rootClassName",
+          "rootStyle",
+          "hashName",
+          "loading",
+          "clipWidth",
+          "placeholderURL",
+          "onLoad",
+        ],
+        se = function (e, d) {
+          var v = e.className,
+            f = e.style,
+            r = e.rootClassName,
+            u = e.rootStyle,
+            c = e.hashName,
+            i = c === void 0 ? "" : c,
+            p = e.loading,
+            y = p === void 0 ? "lazy" : p,
+            n = e.clipWidth,
+            g = e.placeholderURL,
+            w = e.onLoad,
+            m = _()(e, ne),
+            h = (0, L.Z)(function () {
+              return x.current;
+            }),
+            j = A()(h, 1),
+            N = j[0],
+            x = (0, s.useRef)(null),
+            l = (0, s.useRef)(null),
+            o = !/\//.test(i),
+            M =
+              g === !1
+                ? void 0
+                : (g ??
+                  (o
+                    ? (0, T.SR)(i, {
+                        fileType: P.Wz.IMAGE,
+                        width: P.bc.SIZE_48,
+                      })
+                    : void 0)),
+            V = (0, s.useState)(!1),
+            C = A()(V, 2),
+            B = C[0],
+            F = C[1],
+            we = (0, s.useState)(M ? "loading" : "normal"),
+            U = A()(we, 2),
+            Ie = U[0],
+            X = U[1];
+          return (
+            (0, s.useImperativeHandle)(d, function () {
+              return l.current;
+            }),
+            (0, s.useEffect)(
+              function () {
+                (N || y !== "lazy") && F(!0);
+              },
+              [N, y],
+            ),
+            (0, s.useEffect)(
+              function () {
+                var z;
+                (z = l.current) !== null &&
+                  z !== void 0 &&
+                  z.complete &&
+                  X("normal");
+              },
+              [i],
+            ),
+            (0, t.jsx)("div", {
+              ref: x,
+              className: R()(W.root, r),
+              style: u,
+              children: B
+                ? (0, t.jsxs)(t.Fragment, {
+                    children: [
+                      (0, t.jsx)(
+                        "img",
+                        E()(
+                          {
+                            ref: l,
+                            alt: i,
+                            className: R()(W.image, v),
+                            style: f,
+                            src: o
+                              ? (0, T.SR)(
+                                  i,
+                                  E()(
+                                    { fileType: P.Wz.IMAGE },
+                                    n ? { width: n } : {},
+                                  ),
+                                )
+                              : i,
+                            onLoad: function (Pe) {
+                              (X("normal"), w?.(Pe));
+                            },
+                          },
+                          te()(m, ["width", "height"]),
+                        ),
+                      ),
+                      Ie === "loading" &&
+                        (0, t.jsx)("div", {
+                          className: W.placeholder,
+                          children: (0, t.jsx)("img", {
+                            alt: i,
+                            className: R()(W.image, v),
+                            style: f,
+                            src: M,
+                          }),
+                        }),
+                    ],
+                  })
+                : (0, t.jsx)("div", { className: W.loader }),
+            })
+          );
+        },
+        Y = (0, s.forwardRef)(se),
+        re = a(78718),
+        O = a.n(re),
+        oe = a(93341),
+        $ = {
+          iframe: "iframe___HpHxh",
+          player: "player___OK0jx",
+          video: "video___GWCeP",
+          loader: "loader___JbF8O",
+        },
+        ie = function (e) {
+          var d = e.url,
+            v = e.isAutoPlay,
+            f = e.coverUrl,
+            r = (0, s.useRef)(null),
+            u = (0, s.useRef)(null);
+          return (
+            (0, s.useEffect)(
+              function () {
+                return (
+                  u != null &&
+                    u.current &&
+                    !!d &&
+                    (r.current = (0, oe.Z)(
+                      u.current,
+                      {
+                        controls: !0,
+                        preload: "auto",
+                        fluid: !0,
+                        muted: v,
+                        loop: !1,
+                        playbackRates: [1, 1.5, 2, 2.5],
+                        controlBar: {
+                          volumePanel: { inline: !1 },
+                          children: [
+                            "playToggle",
+                            "currentTimeDisplay",
+                            "timeDivider",
+                            "durationDisplay",
+                            "progressControl",
+                            "liveDisplay",
+                            "seekToLive",
+                            "remainingTimeDisplay",
+                            "customControlSpacer",
+                            "playbackRateMenuButton",
+                            "chaptersButton",
+                            "descriptionsButton",
+                            "subsCapsButton",
+                            "audioTrackButton",
+                            "volumePanel",
+                            "pictureInPictureToggle",
+                            "fullscreenToggle",
+                          ],
+                        },
+                        sources: [{ src: d }],
+                      },
+                      function () {
+                        var c;
+                        if (
+                          ((c = u.current) === null || c === void 0 || c.load(),
+                          v)
+                        ) {
+                          var i;
+                          (i = u.current) === null ||
+                            i === void 0 ||
+                            i.play().catch(function () {});
+                        }
+                      },
+                    )),
+                  function () {
+                    var c;
+                    (c = r.current) === null || c === void 0 || c.dispose();
+                  }
+                );
+              },
+              [d],
+            ),
+            (0, t.jsx)(
+              "video",
+              E()(
+                E()({}, f ? { poster: f } : {}),
+                {},
+                {
+                  ref: u,
+                  playsInline: !0,
+                  autoPlay: v,
+                  muted: v,
+                  className: R()(
+                    "video-js",
+                    "vjs-default-skin",
+                    { "vjs-big-play-centered": !0 },
+                    $.video,
+                  ),
+                },
+              ),
+            )
+          );
+        },
+        de = function (e) {
+          var d = e.className,
+            v = e.hashName,
+            f = v === void 0 ? "" : v,
+            r = e.cover,
+            u = e.isAutoPlay,
+            c = u === void 0 ? !1 : u,
+            i = e.imageClipWidth,
+            p = e.style,
+            y = e.lazy,
+            n = y === void 0 ? !1 : y,
+            g = (0, s.useRef)(null),
+            w = (0, s.useState)(!1),
+            m = A()(w, 2),
+            h = m[0],
+            j = m[1],
+            N = (0, L.Z)(function () {
+              return g.current;
+            }),
+            x = A()(N, 1),
+            l = x[0],
+            o = f ? (0, T.SR)(f, { fileType: P.Wz.VIDEO }) : "";
+          return (
+            (0, s.useEffect)(
+              function () {
+                (l || !n) && j(!0);
+              },
+              [l],
+            ),
+            o
+              ? (0, t.jsx)("div", {
+                  ref: g,
+                  className: R()($.player, d),
+                  style: O()(p, ["width", "height"]),
+                  children: h
+                    ? (0, t.jsx)(ie, {
+                        coverUrl:
+                          r != null && r.hashName
+                            ? (0, T.SR)(
+                                r?.hashName,
+                                E()(
+                                  { fileType: P.Wz.IMAGE },
+                                  i ? { width: i } : {},
+                                ),
+                              )
+                            : void 0,
+                        url: o,
+                        isAutoPlay: c,
+                      })
+                    : (0, t.jsx)("div", { className: $.loader }),
+                })
+              : null
+          );
+        },
+        D = de,
+        ue = { box: "box___yr1ue" },
+        ce = function (e) {
+          var d = e.className;
+          return (0, t.jsx)("div", { className: R()(ue.box, d) });
+        },
+        ve = ce,
+        me = a(97398),
+        H = a.n(me),
+        fe = a(9783),
+        he = a.n(fe),
+        pe = a(95910),
+        G = a(71911),
+        Z = a(30719),
+        b = a(55375),
+        S = {
+          swiperWrap: "swiperWrap___q9t7k",
+          swiper: "swiper___EKWNR",
+          swiperMedia: "swiperMedia___YthYz",
+          swiperMediaAction: "swiperMediaAction____n1B_",
+          swiperMediaActionPoint: "swiperMediaActionPoint___Whcwy",
+          swiperMediaAction__video: "swiperMediaAction__video___MLNAq",
+          ctrl: "ctrl___jeONl",
+          ctrl__left: "ctrl__left___Lr2iT",
+          ctrl__right: "ctrl__right___El34X",
+        },
+        ye = function (e) {
+          var d = e.fileType,
+            v = e.text,
+            f = (0, s.useRef)(null),
+            r = (0, pe.Z)(f.current);
+          return (0, t.jsx)("div", {
+            ref: f,
+            className: R()(
+              S.swiperMediaAction,
+              he()({}, S["swiperMediaAction__".concat(d)], !!d),
+            ),
+            children: (0, t.jsx)("span", {
+              className: S.swiperMediaActionPoint,
+              style: {
+                opacity: H()(r.elementX) ? 1 : 0,
+                transform: "translate3d("
+                  .concat(r.elementX - 16, "px, ")
+                  .concat(r.elementY - 11, "px, 0px)"),
+              },
+              children: v,
+            }),
+          });
+        },
+        ge = function (e) {
+          var d = e.eventId,
+            v = e.medias,
+            f = v === void 0 ? [] : v,
+            r = e.SWIPER_HEIGHT,
+            u = e.SECTION_WIDTH,
+            c = e.mobile,
+            i = c === void 0 ? !1 : c,
+            p = i ? b.B8 : b.sp,
+            y = (0, s.useRef)(null),
+            n = (0, s.useState)(!1),
+            g = A()(n, 2),
+            w = g[0],
+            m = g[1],
+            h = (0, s.useState)(!1),
+            j = A()(h, 2),
+            N = j[0],
+            x = j[1];
+          return (0, t.jsxs)("div", {
+            className: S.swiperWrap,
+            id: d ? "DPI_SWIPER_EVENT_".concat(d) : void 0,
+            children: [
+              (0, t.jsx)(Z.tq, {
+                modules: [G.tl, G.Gk],
+                className: S.swiper,
+                direction: "horizontal",
+                slidesPerView: "auto",
+                spaceBetween: 20,
+                mousewheel:
+                  !i && !!d
+                    ? {
+                        forceToAxis: !0,
+                        eventsTarget: "#DPI_SWIPER_EVENT_".concat(d),
+                      }
+                    : !1,
+                allowTouchMove: i,
+                loop: !0,
+                loopedSlides: 4,
+                onInit: function (o) {
+                  (m(o.isBeginning), x(o.isEnd));
+                },
+                ref: y,
+                onProgress: function (o) {
+                  (m(o.isBeginning), x(o.isEnd));
+                },
+                children: f.map(function (l, o) {
+                  var M,
+                    V,
+                    C =
+                      ((M = l.height) !== null && M !== void 0 ? M : NaN) /
+                      ((V = l.width) !== null && V !== void 0 ? V : NaN),
+                    B = H()(C) ? C > r / u : !1,
+                    F = E()(
+                      { height: (0, T.oV)(r, p) },
+                      B
+                        ? { width: (0, T.oV)(r / C, p) }
+                        : E()(
+                            { width: (0, T.oV)(u, p) },
+                            l.type === P.Wz.IMAGE
+                              ? { objectFit: "contain" }
+                              : {},
+                          ),
+                    );
+                  return (0, t.jsx)(
+                    Z.o5,
+                    {
+                      children: (0, t.jsxs)("div", {
+                        className: S.swiperMedia,
+                        children: [
+                          l.type === P.Wz.IMAGE &&
+                            (0, t.jsx)(Y, {
+                              className: S.img,
+                              rootStyle: O()(F, ["width", "height"]),
+                              style: O()(F, ["objectFit"]),
+                              hashName: l.hashName,
+                            }),
+                          l.type === P.Wz.VIDEO &&
+                            (0, t.jsx)(D, {
+                              className: S.video,
+                              style: F,
+                              isAutoPlay: !0,
+                              lazy: !0,
+                              cover: l.cover,
+                              hashName: l.hashName,
+                            }),
+                          !i &&
+                            (0, t.jsx)(ye, {
+                              fileType: l.type,
+                              text: "".concat(o + 1, "/").concat(f.length),
+                            }),
+                        ],
+                      }),
+                    },
+                    l.hashName,
+                  );
+                }),
+              }),
+              !i &&
+                (0, t.jsxs)(t.Fragment, {
+                  children: [
+                    !N &&
+                      (0, t.jsx)("div", {
+                        onClick: function () {
+                          var o;
+                          return (o = y.current) === null || o === void 0
+                            ? void 0
+                            : o.swiper.slideNext();
+                        },
+                        className: R()(S.ctrl, S.ctrl__right),
+                      }),
+                    !w &&
+                      (0, t.jsx)("div", {
+                        onClick: function () {
+                          var o;
+                          return (o = y.current) === null || o === void 0
+                            ? void 0
+                            : o.swiper.slidePrev();
+                        },
+                        className: R()(S.ctrl, S.ctrl__left),
+                      }),
+                  ],
+                }),
+            ],
+          });
+        },
+        Ne = ge,
+        xe = a(37301),
+        Se = { wrap: "wrap___x596P" },
+        je = function (e, d) {
+          var v = e.speed,
+            f = v === void 0 ? 1 : v,
+            r = e.className,
+            u = e.childClassName,
+            c = e.children,
+            i = (0, s.useRef)(null),
+            p = (0, s.useRef)(NaN),
+            y = (0, s.useRef)(null),
+            n = (0, xe.Z)({ isRunning: !0, translateY: 0, isOverflow: !1 }),
+            g = function m(h, j) {
+              var N = j.manual;
+              if (H()(h)) {
+                var x,
+                  l,
+                  o = n.translateY - h,
+                  M =
+                    (x =
+                      (l = y.current) === null || l === void 0
+                        ? void 0
+                        : l.clientHeight) !== null && x !== void 0
+                      ? x
+                      : 0;
+                n.translateY = Math.abs(o) >= M ? 0 : o;
+              }
+              N ||
+                (p.current = window.requestAnimationFrame(function () {
+                  return m(h, { manual: N });
+                }));
+            };
+          ((0, s.useEffect)(
+            function () {
+              var m,
+                h,
+                j,
+                N,
+                x =
+                  (m =
+                    (h = i.current) === null || h === void 0
+                      ? void 0
+                      : h.clientHeight) !== null && m !== void 0
+                    ? m
+                    : 0,
+                l =
+                  (j =
+                    (N = y.current) === null || N === void 0
+                      ? void 0
+                      : N.clientHeight) !== null && j !== void 0
+                    ? j
+                    : 0;
+              if (l <= x) {
+                n.isOverflow = !1;
+                return;
+              }
+              if (((n.isOverflow = !0), n.isRunning)) {
+                g(f, { manual: !1 });
+                return;
+              }
+              w();
+            },
+            [n.isRunning],
+          ),
+            (0, s.useImperativeHandle)(
+              d,
+              function () {
+                return {
+                  translateTo: function (h) {
+                    (w(), (n.translateY = h));
+                  },
+                  getTranslate: function () {
+                    return n.translateY;
+                  },
+                  start: function () {
+                    return (n.isRunning = !0);
+                  },
+                  stop: function () {
+                    n.isRunning = !1;
+                  },
+                };
+              },
+              [n.translateY, n.isRunning],
+            ));
+          var w = function () {
+            H()(p.current) &&
+              (window.cancelAnimationFrame(p.current), (p.current = NaN));
+          };
+          return (0, t.jsx)("div", {
+            ref: i,
+            className: r,
+            children: (0, t.jsxs)("div", {
+              className: R()(Se.wrap, r),
+              style: {
+                transform: "translate3d(0, ".concat(
+                  n.isOverflow ? "-33.3333% " : "0",
+                  ",0)",
+                ),
+              },
+              onWheel: n.isOverflow
+                ? function (m) {
+                    g(m.deltaY, { manual: !0 });
+                  }
+                : void 0,
+              children: [
+                n.isOverflow &&
+                  (0, t.jsx)("div", {
+                    className: u,
+                    style: {
+                      transform: "translate3d(0,".concat(n.translateY, "px,0)"),
+                    },
+                    children: c,
+                  }),
+                (0, t.jsx)("div", {
+                  className: u,
+                  ref: y,
+                  style: {
+                    transform: "translate3d(0,".concat(n.translateY, "px,0)"),
+                  },
+                  children: c,
+                }),
+                n.isOverflow &&
+                  (0, t.jsx)("div", {
+                    className: u,
+                    style: {
+                      transform: "translate3d(0,".concat(n.translateY, "px,0)"),
+                    },
+                    children: c,
+                  }),
+              ],
+            }),
+          });
+        },
+        Re = (0, s.forwardRef)(je);
+    },
+    25893: function () {},
+  },
+]);

@@ -7,7 +7,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "AntiqueOli-Reg", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -50,7 +50,7 @@
 
 :root {
   --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --foreground: oklch(0 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -127,4 +127,60 @@
   html {
     @apply font-sans;
   }
+}
+/* ==== studiodpi.work clone foundation (site studiodpi-work-708a7940) ==== */
+/* Fonts AntiqueOli-Lig/Reg are injected at runtime by DpiApp (relative paths
+   work both at dev root and under the GitHub Pages subpath). */
+
+@layer base {
+  body {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  p {
+    margin-bottom: 0;
+    overflow-wrap: break-word;
+  }
+  p a,
+  p a:hover {
+    color: #000;
+  }
+}
+
+/* Rich-text fragments injected from CMS content */
+.dpi-html-text {
+  display: inline;
+}
+.dpi-html-text-left-space {
+  padding-left: 4px;
+}
+.dpi-html-text p {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+/* Design-base scaling helper: the original site sizes everything in vw on a 1920px base */
+.dpi-scrollbar-hidden {
+  scrollbar-width: none;
+}
+.dpi-scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Carousel slides must hug their media so 18px gaps sit between images */
+.dpi-swiper .swiper-slide {
+  width: auto;
+  height: auto;
+}
+
+/* CJK runs inside mixed-language project titles: 14px / 500 */
+.dpi-cn-inline {
+  font-size: 14px;
+  font-weight: 500;
 }
