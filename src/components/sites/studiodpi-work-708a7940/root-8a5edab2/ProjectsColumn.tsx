@@ -11,6 +11,7 @@ interface ProjectsColumnProps {
   currCategoryId: number;
   onCategory: (id: number) => void;
   currIndex: number;
+  setCurrIndex: (n: number) => void;
   isRightNeedReset: boolean;
   setIsRightNeedReset: (v: boolean) => void;
   toggleCollapse: (id: number) => void;
@@ -25,11 +26,17 @@ export function ProjectsColumn({
   currCategoryId,
   onCategory,
   currIndex,
+  setCurrIndex,
   isRightNeedReset,
   setIsRightNeedReset,
   toggleCollapse,
 }: ProjectsColumnProps) {
   const centerRef = useRef<HTMLDivElement>(null);
+  // The strip-click scroll is a one-shot action: currIndex is consumed and
+  // reset to -1, otherwise any later re-render with a new `list` identity
+  // (e.g. toggling a project's INFO) would scroll back to that index.
+  const listRef = useRef(list);
+  listRef.current = list;
 
   useEffect(() => {
     const center = centerRef.current;
@@ -37,17 +44,19 @@ export function ProjectsColumn({
     if (isRightNeedReset) {
       center.scrollTop = 0;
       setIsRightNeedReset(false);
+      setCurrIndex(-1);
       return;
     }
     if (currIndex !== -1) {
-      const work = list[currIndex];
+      const work = listRef.current[currIndex];
+      setCurrIndex(-1);
       if (work) {
         document
           .getElementById(`right-item-${work.id}`)
           ?.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [currIndex, isRightNeedReset, list, setIsRightNeedReset]);
+  }, [currIndex, isRightNeedReset, setCurrIndex, setIsRightNeedReset]);
 
   return (
     <div className="ml-auto flex h-screen w-[68.2291667vw] flex-none flex-col p-0 text-black">

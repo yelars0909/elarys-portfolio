@@ -458,14 +458,8 @@ export const WORKS: Work[] = [
     "medias": [
       {
         "hashName": "p06-1.webp",
-        "width": 2560,
-        "height": 1830,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p06-2.webp",
-        "width": 2560,
-        "height": 1830,
+        "width": 4308,
+        "height": 2304,
         "type": "IMAGE"
       }
     ]
@@ -2455,7 +2449,7 @@ export const ABOUT: AboutInfo = {
           },
           {
             "year": "2023",
-            "descriptionEn": "Individual Graduation Project selected for the 360 ​​Annual Graduation Design Awards (Top 100)"
+            "descriptionEn": "Graduation Project selected for the 360 ​​Annual Graduation Design Awards (Top 100)"
           },
           {
             "year": "2023",
@@ -2463,11 +2457,15 @@ export const ABOUT: AboutInfo = {
           },
           {
             "year": "2023",
-            "descriptionEn": "Individual Graduation Project selected for the New One Awards (Annual Graduation Design Award)"
+            "descriptionEn": "Graduation Project selected for the New One Awards (Annual Graduation Design Award)"
           },
           {
             "year": "2023",
-            "descriptionEn": "Selected for the CAFA Poster Design Biennial"
+            "descriptionEn": "The 24th Platinum Originality International University Student Graphic Design Competition – Shortlist Award"
+          },
+          {
+            "year": "2023",
+            "descriptionEn": "Poster design work selected for the 1st International \"Love\" Poster Biennial"
           },
           {
             "year": "2023",

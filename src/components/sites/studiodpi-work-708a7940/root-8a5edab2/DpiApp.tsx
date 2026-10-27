@@ -178,6 +178,7 @@ export function DpiApp() {
             currCategoryId={currCategoryId}
             onCategory={onCategoryClick}
             currIndex={currIndex}
+            setCurrIndex={setCurrIndex}
             isRightNeedReset={isRightNeedReset}
             setIsRightNeedReset={setIsRightNeedReset}
             toggleCollapse={toggleCollapse}
