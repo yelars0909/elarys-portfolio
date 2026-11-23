@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CATEGORIES, COPYRIGHT, WORKS } from "./data";
 import { InfoColumn, InfoSections } from "./InfoColumn";
 import { IndexStrip } from "./IndexStrip";
@@ -76,6 +76,20 @@ export function DpiApp() {
       }
     `}</style>
   );
+
+  // 挂载前先渲染空白页：避免手机端先闪现桌面排版（反之亦然），
+  // 等 useIsMobile 在浏览器里实测完视口宽度再渲染正确布局。
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) {
+    return (
+      <>
+        {fontsStyle}
+        <main className="relative min-h-screen w-full bg-white" />
+      </>
+    );
+  }
 
   if (isMobile) {
     return (
