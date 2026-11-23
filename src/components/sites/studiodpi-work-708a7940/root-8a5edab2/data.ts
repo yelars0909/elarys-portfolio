@@ -160,133 +160,6 @@ export const WORKS: Work[] = [
     ]
   },
   {
-    "id": 2,
-    "nameEn": "1/∞",
-    "clientEn": "",
-    "year": "2023",
-    "descriptionEn": "<div class=\"dpi-cn\"><p>从植物和大气的关系出发，我们希望讨论的是人类活动对自然产生的影响。回顾过往的人类发展历史不难发现，“人类中心主义”是我们长久以来形成的一种现代观，这在自然界以一种专制主义的资源垄断来体现，随之而来的生态危机挑战了我们关于可持续性的理解。其中，最显著的生态危机之一就是大气污染，而其直接取决于森林资源的减少与破坏。结合我们对木材资源转化的思辨，我们创作了艺术装置《1/∞》。此作品中包含两层交换关系，分别指代从材料到制品的转化与活动中的气体消耗。我们希望以此凸显自然界中不对等的滥用与专制，让观者产生关于人类、植物与大气关系平衡的反思。</p></div><div class=\"dpi-en\"><p>By examining the relationship between plants and the atmosphere, we aim to explore the impact of human activity on the natural world. A look back at human history reveals the long-standing prevalence of &quot;anthropocentrism&quot;—a modern mindset that manifests as a form of despotic resource monopolization—and the ensuing ecological crises that challenge our understanding of sustainability. Air pollution stands out as one of the most significant of these crises, driven directly by the depletion and destruction of forest resources. Drawing on our critical reflections regarding the transformation of timber resources, we created the art installation *1/∞*. The work embodies two layers of exchange: the transformation of raw materials into finished products and the consumption of gases during these processes. Through this piece, we seek to highlight the inequitable exploitation and authoritarian nature of human interaction with the environment, prompting viewers to reflect on the balance between humanity, plants, and the atmosphere.</p></div>",
-    "extendsEn": [
-      {
-        "param": "TD",
-        "value": "<p>Elarys·Tolkhyn,Wang Ximing,Jo Guna,Moon Chanmee,Jiang Ziyi</p>"
-      },
-      {
-        "param": "D",
-        "value": "<p>Elarys·Tolkhyn,Moon Chanmee</p>"
-      },
-      {
-        "param": "PT",
-        "value": "<p>Wang Ximing,Jo Guna</p>"
-      }
-    ],
-    "link": null,
-    "categories": [
-      {
-        "id": 8,
-        "nameEn": "INSTALLATION & DISPLAY"
-      },
-      {
-        "id": 5,
-        "nameEn": "EXPLORATORY"
-      },
-      {
-        "id": 1,
-        "nameEn": "VISUAL IDENTITY"
-      }
-    ],
-    "cover": {
-      "hashName": "p02-cover.webp",
-      "width": 2404,
-      "height": 2480
-    },
-    "medias": [
-      {
-        "hashName": "p02-1.mp4",
-        "width": 1920,
-        "height": 1080,
-        "type": "VIDEO"
-      },
-      {
-        "hashName": "p02-2.webp",
-        "width": 2560,
-        "height": 1926,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-3.webp",
-        "width": 1920,
-        "height": 1080,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-4.webp",
-        "width": 1920,
-        "height": 1080,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-5.webp",
-        "width": 2560,
-        "height": 1926,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-6.webp",
-        "width": 2560,
-        "height": 1926,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-7.webp",
-        "width": 2560,
-        "height": 1925,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-8.webp",
-        "width": 1702,
-        "height": 1280,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-9.webp",
-        "width": 2560,
-        "height": 1926,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-10.webp",
-        "width": 1230,
-        "height": 1636,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-11.webp",
-        "width": 1161,
-        "height": 1543,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-12.webp",
-        "width": 2560,
-        "height": 1925,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-13.webp",
-        "width": 2560,
-        "height": 1609,
-        "type": "IMAGE"
-      },
-      {
-        "hashName": "p02-14.webp",
-        "width": 1889,
-        "height": 2560,
-        "type": "IMAGE"
-      }
-    ]
-  },
-  {
     "id": 3,
     "nameEn": "An Apple",
     "clientEn": "Huaqing Studio",
@@ -829,6 +702,97 @@ export const WORKS: Work[] = [
     ]
   },
   {
+    "id": 8,
+    "nameEn": "48 Funny Violence",
+    "clientEn": "",
+    "year": "2022",
+    "descriptionEn": "<div class=\"dpi-cn\"><p>锤子的方向和手的动作是作品的关键通过对手与锤子之间关系的研究，引出暴力的主题,用手与锤子能够组合的动作来表达人类的若干种与暴力相关的行为,有趣的是所有的关系都是随机形成的，在潜意识中的随机抓握方式却形成了一种暴力的语言，一种滑稽的攻击性、滑稽的暴力。</p></div><div class=\"dpi-en\"><p>The direction of the hammer and the movement of the hand are pivotal to the work. By exploring the relationship between the hand and the hammer, the theme of violence emerges; the various ways the hand and hammer can be combined serve to express different human behaviors associated with violence. Interestingly, these configurations arise spontaneously—yet the subconscious, random manner in which the hand grasps the hammer gives rise to a language of violence: a form of comical aggression, a comical violence.</p></div>",
+    "extendsEn": [
+      {
+        "param": "TD.D",
+        "value": "<p>Elarys·Tolkhyn</p>"
+      },
+      {
+        "param": "PT",
+        "value": "<p>Elarys·Tolkhyn</p>"
+      }
+    ],
+    "link": null,
+    "categories": [
+      {
+        "id": 5,
+        "nameEn": "EXPLORATORY"
+      }
+    ],
+    "cover": {
+      "hashName": "p08-cover.webp",
+      "width": 360,
+      "height": 480
+    },
+    "medias": [
+      {
+        "hashName": "p08-1.webp",
+        "width": 2560,
+        "height": 1808,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-2.webp",
+        "width": 2560,
+        "height": 1706,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-3.webp",
+        "width": 2560,
+        "height": 1698,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-4.webp",
+        "width": 1707,
+        "height": 1280,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-5.webp",
+        "width": 2560,
+        "height": 1707,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-6.webp",
+        "width": 2560,
+        "height": 1502,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-7.webp",
+        "width": 2560,
+        "height": 1501,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-8.webp",
+        "width": 2560,
+        "height": 1502,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-9.webp",
+        "width": 2560,
+        "height": 1504,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p08-10.webp",
+        "width": 2560,
+        "height": 1501,
+        "type": "IMAGE"
+      }
+    ]
+  },
+  {
     "id": 7,
     "nameEn": "D100RS IN ALTAY",
     "clientEn": "",
@@ -940,92 +904,128 @@ export const WORKS: Work[] = [
     ]
   },
   {
-    "id": 8,
-    "nameEn": "48 Funny Violence",
+    "id": 2,
+    "nameEn": "1/∞",
     "clientEn": "",
-    "year": "2022",
-    "descriptionEn": "<div class=\"dpi-cn\"><p>锤子的方向和手的动作是作品的关键通过对手与锤子之间关系的研究，引出暴力的主题,用手与锤子能够组合的动作来表达人类的若干种与暴力相关的行为,有趣的是所有的关系都是随机形成的，在潜意识中的随机抓握方式却形成了一种暴力的语言，一种滑稽的攻击性、滑稽的暴力。</p></div><div class=\"dpi-en\"><p>The direction of the hammer and the movement of the hand are pivotal to the work. By exploring the relationship between the hand and the hammer, the theme of violence emerges; the various ways the hand and hammer can be combined serve to express different human behaviors associated with violence. Interestingly, these configurations arise spontaneously—yet the subconscious, random manner in which the hand grasps the hammer gives rise to a language of violence: a form of comical aggression, a comical violence.</p></div>",
+    "year": "2023",
+    "descriptionEn": "<div class=\"dpi-cn\"><p>从植物和大气的关系出发，我们希望讨论的是人类活动对自然产生的影响。回顾过往的人类发展历史不难发现，“人类中心主义”是我们长久以来形成的一种现代观，这在自然界以一种专制主义的资源垄断来体现，随之而来的生态危机挑战了我们关于可持续性的理解。其中，最显著的生态危机之一就是大气污染，而其直接取决于森林资源的减少与破坏。结合我们对木材资源转化的思辨，我们创作了艺术装置《1/∞》。此作品中包含两层交换关系，分别指代从材料到制品的转化与活动中的气体消耗。我们希望以此凸显自然界中不对等的滥用与专制，让观者产生关于人类、植物与大气关系平衡的反思。</p></div><div class=\"dpi-en\"><p>By examining the relationship between plants and the atmosphere, we aim to explore the impact of human activity on the natural world. A look back at human history reveals the long-standing prevalence of &quot;anthropocentrism&quot;—a modern mindset that manifests as a form of despotic resource monopolization—and the ensuing ecological crises that challenge our understanding of sustainability. Air pollution stands out as one of the most significant of these crises, driven directly by the depletion and destruction of forest resources. Drawing on our critical reflections regarding the transformation of timber resources, we created the art installation *1/∞*. The work embodies two layers of exchange: the transformation of raw materials into finished products and the consumption of gases during these processes. Through this piece, we seek to highlight the inequitable exploitation and authoritarian nature of human interaction with the environment, prompting viewers to reflect on the balance between humanity, plants, and the atmosphere.</p></div>",
     "extendsEn": [
       {
-        "param": "TD.D",
-        "value": "<p>Elarys·Tolkhyn</p>"
+        "param": "TD",
+        "value": "<p>Elarys·Tolkhyn,Wang Ximing,Jo Guna,Moon Chanmee,Jiang Ziyi</p>"
+      },
+      {
+        "param": "D",
+        "value": "<p>Elarys·Tolkhyn,Moon Chanmee</p>"
       },
       {
         "param": "PT",
-        "value": "<p>Elarys·Tolkhyn</p>"
+        "value": "<p>Wang Ximing,Jo Guna</p>"
       }
     ],
     "link": null,
     "categories": [
       {
+        "id": 8,
+        "nameEn": "INSTALLATION & DISPLAY"
+      },
+      {
         "id": 5,
         "nameEn": "EXPLORATORY"
+      },
+      {
+        "id": 1,
+        "nameEn": "VISUAL IDENTITY"
       }
     ],
     "cover": {
-      "hashName": "p08-cover.webp",
-      "width": 360,
-      "height": 480
+      "hashName": "p02-cover.webp",
+      "width": 2404,
+      "height": 2480
     },
     "medias": [
       {
-        "hashName": "p08-1.webp",
+        "hashName": "p02-1.mp4",
+        "width": 1920,
+        "height": 1080,
+        "type": "VIDEO"
+      },
+      {
+        "hashName": "p02-2.webp",
         "width": 2560,
-        "height": 1808,
+        "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-2.webp",
-        "width": 2560,
-        "height": 1706,
+        "hashName": "p02-3.webp",
+        "width": 1920,
+        "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-3.webp",
-        "width": 2560,
-        "height": 1698,
+        "hashName": "p02-4.webp",
+        "width": 1920,
+        "height": 1080,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-4.webp",
-        "width": 1707,
+        "hashName": "p02-5.webp",
+        "width": 2560,
+        "height": 1926,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p02-6.webp",
+        "width": 2560,
+        "height": 1926,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p02-7.webp",
+        "width": 2560,
+        "height": 1925,
+        "type": "IMAGE"
+      },
+      {
+        "hashName": "p02-8.webp",
+        "width": 1702,
         "height": 1280,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-5.webp",
+        "hashName": "p02-9.webp",
         "width": 2560,
-        "height": 1707,
+        "height": 1926,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-6.webp",
-        "width": 2560,
-        "height": 1502,
+        "hashName": "p02-10.webp",
+        "width": 1230,
+        "height": 1636,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-7.webp",
-        "width": 2560,
-        "height": 1501,
+        "hashName": "p02-11.webp",
+        "width": 1161,
+        "height": 1543,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-8.webp",
+        "hashName": "p02-12.webp",
         "width": 2560,
-        "height": 1502,
+        "height": 1925,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-9.webp",
+        "hashName": "p02-13.webp",
         "width": 2560,
-        "height": 1504,
+        "height": 1609,
         "type": "IMAGE"
       },
       {
-        "hashName": "p08-10.webp",
-        "width": 2560,
-        "height": 1501,
+        "hashName": "p02-14.webp",
+        "width": 1889,
+        "height": 2560,
         "type": "IMAGE"
       }
     ]
