@@ -525,7 +525,7 @@ export const WORKS: Work[] = [
       {
         "hashName": "p04-3.webp",
         "width": 2560,
-        "height": 1436,
+        "height": 1439,
         "type": "IMAGE"
       },
       {
