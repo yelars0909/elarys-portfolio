@@ -97,7 +97,7 @@ export function DpiApp() {
         {fontsStyle}
         <main className="relative w-full text-black">
           {/* Sticky header: studio name left, INFO toggle right */}
-          <header className="sticky top-0 z-40 flex h-14 items-center justify-between border-b border-black bg-white px-3 text-base leading-5">
+          <header className="sticky top-0 z-40 flex h-14 items-center justify-between bg-white px-3 text-base leading-5">
             <span
               className="cursor-pointer"
               onClick={() => {
